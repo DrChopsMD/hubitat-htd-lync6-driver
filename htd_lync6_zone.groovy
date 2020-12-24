@@ -16,6 +16,8 @@
  *   You should have received a copy of the GNU General Public License
  *   along with this program.  If not, see <https://www.gnu.org/licenses/>.
  *
+ *   The code below is based off the code written by jmehlman (https://github.com/jmehlman/hubitat-htd-mca66-driver)
+ *
  *   Change Log:
  *     12/21/2020 v1.0 - Initial release
 *     12/22/2020 v1.1 - added mute & input select
