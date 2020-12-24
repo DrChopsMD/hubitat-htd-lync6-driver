@@ -121,7 +121,7 @@ void selectInput(zone, byte inputNum) {
     def inputNumRange = 1..12
     if ( inputNumRange.contains(inputNum as int) )
     {
-        def msg = [0x02, 0x00, zone, 0x04, 0x10] as byte[]
+        def msg = [0x02, 0x00, zone, 0x04, 0x17] as byte[]
         sendMessage(msg)
     }
     else {
