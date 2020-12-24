@@ -46,6 +46,12 @@ metadata {
         input name: 'input4Name', type: 'text', title: 'input 4 Name', required: true, defaultValue: 'input 4', description: 'Name for input 4'
         input name: 'input5Name', type: 'text', title: 'input 5 Name', required: true, defaultValue: 'input 5', description: 'Name for input 5'
         input name: 'input6Name', type: 'text', title: 'input 6 Name', required: true, defaultValue: 'input 6', description: 'Name for input 6'
+        input name: 'input7Name', type: 'text', title: 'input 7 Name', required: true, defaultValue: 'input 7', description: 'Name for input 7'
+        input name: 'input8Name', type: 'text', title: 'input 8 Name', required: true, defaultValue: 'input 8', description: 'Name for input 8'
+        input name: 'input9Name', type: 'text', title: 'input 9 Name', required: true, defaultValue: 'input 9', description: 'Name for input 9'
+        input name: 'input10Name', type: 'text', title: 'input 10 Name', required: true, defaultValue: 'input 10', description: 'Name for input 10'
+        input name: 'input11Name', type: 'text', title: 'input 11 Name', required: true, defaultValue: 'input 11', description: 'Name for input 11'
+        input name: 'input12Name', type: 'text', title: 'input 12 Name', required: true, defaultValue: 'input 12', description: 'Name for input 12'
     }
 }
 
