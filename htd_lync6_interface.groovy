@@ -61,6 +61,34 @@ void installed() {
     createZones()
 }
 
+void volumeUp(zone) {
+    if (zone<1 || zone>6)
+    {
+        log.error "Invalid Zone"
+        return
+    }
+    else
+    {
+
+        def cmd = [0x02, 0x00, zone, 0x04, 0x09] as byte[]
+        sendMessage(cmd)
+    }
+}
+
+void volumeDown(zone) {
+    if (zone<1 || zone>6)
+    {
+        log.error "Invalid Zone"
+        return
+    }
+    else
+    {
+
+        def cmd = [0x02, 0x00, zone, 0x04, 0x0A] as byte[]
+        sendMessage(cmd)
+    }
+}
+
 void on(byte zone) {
     def msg = [2,0,zone,4,0x57] as byte[]
     sendMessage(msg)
@@ -69,6 +97,12 @@ void on(byte zone) {
 void off(byte zone) {
     def msg = [2,0,zone,4,0x58] as byte[]
     sendMessage(msg)
+}
+
+void sendTestMessage() {
+    def msgon = [2,0,5,4,0x20] as byte[]
+
+    sendMessage(msgon)
 }
 
 void Mute(zone) {
@@ -100,7 +134,6 @@ void selectInput(zone, byte inputNum) {
         log.error "Invalid input number: ${inputNum}"
     }
 }
-
 
 void createZones() {
     for (i in 1..6)
