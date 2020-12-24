@@ -46,12 +46,12 @@ metadata {
         input name: 'Source4Name', type: 'text', title: 'Source 4 Name', required: true, defaultValue: 'Source 4', description: 'Name for Source 4'
         input name: 'Source5Name', type: 'text', title: 'Source 5 Name', required: true, defaultValue: 'Source 5', description: 'Name for Source 5'
         input name: 'Source6Name', type: 'text', title: 'Source 6 Name', required: true, defaultValue: 'Source 6', description: 'Name for Source 6'
-        input name: 'input7Name', type: 'text', title: 'input 7 Name', required: true, defaultValue: 'input 7', description: 'Name for input 7'
-        input name: 'input8Name', type: 'text', title: 'input 8 Name', required: true, defaultValue: 'input 8', description: 'Name for input 8'
-        input name: 'input9Name', type: 'text', title: 'input 9 Name', required: true, defaultValue: 'input 9', description: 'Name for input 9'
-        input name: 'input10Name', type: 'text', title: 'input 10 Name', required: true, defaultValue: 'input 10', description: 'Name for input 10'
-        input name: 'input11Name', type: 'text', title: 'input 11 Name', required: true, defaultValue: 'input 11', description: 'Name for input 11'
-        input name: 'input12Name', type: 'text', title: 'input 12 Name', required: true, defaultValue: 'input 12', description: 'Name for input 12'
+        input name: 'Source7Name', type: 'text', title: 'Source 7 Name', required: true, defaultValue: 'Source 7', description: 'Name for Source 7'
+        input name: 'Source8Name', type: 'text', title: 'Source 8 Name', required: true, defaultValue: 'Source 8', description: 'Name for Source 8'
+        input name: 'Source9Name', type: 'text', title: 'Source 9 Name', required: true, defaultValue: 'Source 9', description: 'Name for Source 9'
+        input name: 'Source10Name', type: 'text', title: 'Source 10 Name', required: true, defaultValue: 'Source 10', description: 'Name for Source 10'
+        input name: 'Source11Name', type: 'text', title: 'Source 11 Name', required: true, defaultValue: 'Source 11', description: 'Name for Source 11'
+        input name: 'Source12Name', type: 'text', title: 'Source 12 Name', required: true, defaultValue: 'Source 12', description: 'Name for Source 12'
     }
 }
 
